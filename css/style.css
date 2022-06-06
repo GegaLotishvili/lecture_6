@@ -1,0 +1,38 @@
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.mama {
+	width: 300px;
+	height: 300px;
+	background-color: yellow;
+	margin: 0 auto;
+	position: relative;
+}
+
+.shvili {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	transition-property: all;
+  	transition-duration: 5s;
+  	transition-timing-function: linear;
+  	transform: transition-delay: 2s;
+
+  	transform: all 5s linear 2s;
+}
+
+.shvili:hover {
+ 	background-color: green;
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+
+
+
